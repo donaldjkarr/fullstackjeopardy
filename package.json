@@ -1,0 +1,27 @@
+{
+  "name": "fullstackjeopardy",
+  "version": "1.0.0",
+  "description": "jeopardy game with database",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donaldjkarr/fullstackjeopardy.git"
+  },
+  "author": "Donald Karr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/donaldjkarr/fullstackjeopardy/issues"
+  },
+  "homepage": "https://github.com/donaldjkarr/fullstackjeopardy#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mysql": "^2.14.0",
+    "path": "^0.12.7",
+    "sequelize": "^4.4.2"
+  }
+}
